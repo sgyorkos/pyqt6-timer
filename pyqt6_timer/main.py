@@ -5,7 +5,7 @@ from PyQt6.QtGui import QFont, QMouseEvent
 from PyQt6.QtWidgets import QApplication, QLabel, QMainWindow
 
 
-MINUTES = 75
+MINUTES = 90
 
 
 class MainWindow(QMainWindow):
