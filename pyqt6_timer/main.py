@@ -5,7 +5,7 @@ from PyQt6.QtGui import QFont, QMouseEvent
 from PyQt6.QtWidgets import QApplication, QLabel, QMainWindow
 
 
-MINUTES = 1
+MINUTES = 75
 
 
 class MainWindow(QMainWindow):
@@ -21,7 +21,7 @@ class MainWindow(QMainWindow):
         self.setAutoFillBackground(True)
         self.setStyleSheet("background-color: black")
 
-        f = QFont(["monospace"], 50)
+        f = QFont(["monospace"], 450)
         f.setStyleHint(QFont.StyleHint.Monospace)
 
         qr = self.frameGeometry()

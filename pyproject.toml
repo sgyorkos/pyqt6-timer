@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "timer"
+name = "pyqt6_timer"
 version = "0.1.0"
 description = ""
 authors = ["Simon Gyorkos <simon.gyorkos@gmail.com>"]
